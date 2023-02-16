@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Agenda Multicapas</title>
+</head>
+<body onload="cargar()">
+<script src="./js/main.js" defer></script>
+    <div class="container">
+        <div class="col1 row">
+            <h1 class="fuente"> Agregar Contacto</h1>
+            <div class="form">
+                <div class="i1 fuente">
+                    <label>Nombre:</label>
+                    <input type="text" id="txtNombre" />
+                </div>
+                <div class="i2 fuente">
+                    <label>Apellido:</label>
+                    <input type="text" id="txtApellido" />
+                </div>
+                <div class="i3 fuente">
+                    <label>Telefono:</label>
+                    <input type="text" id="txtTelefono" />
+                </div>
+            </div>
+            <div class="fila"><button class="btn-enviar" onclick="agregar()">Agregar</button></div>
+        </div>
+        <div class="cont">
+        <div class="encabezado fuente">Listado de Contactos</div>
+        <br><br><br><br>
+        <div id="divContactos" class="listado-contactos"></div>
+        </div>
+    </div>
+</body>
+</html>

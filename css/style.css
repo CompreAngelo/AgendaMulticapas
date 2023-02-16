@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #714894;
+}
+ 
+.fuente {
+    font-family:'Segoe UI', Tahoma;
+}
+
+.row {
+    margin-top: 25px;
+    left: 30%;
+}
+
+.col1{
+    background: #FFFFFF;
+    margin: 1.5px;
+    padding: 5px;
+    height: 400;
+    text-align: center;
+    border-radius: 5px;
+}
+.form {
+    margin-top: 50px;
+
+}
+.cont{
+    position: relative;
+}
+.i1 input, .i2 input, .i3 input{
+    padding: 5px;
+    margin: 25px;
+    border: 1px #714894 solid;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+input{
+    width: 200px;
+    height: 15px;
+}
+
+.col1{
+    width: 495px;
+
+}
+.col2{
+    position: relative;
+    bottom: 410px;
+    left: 510px;
+    width: 825px;
+
+}
+.listado-contactos {
+    background-color: #FFFFFF;
+    padding: 10px;
+    overflow: scroll;
+    overflow: auto;
+    height: 250px;
+    overflow-x: hidden;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+}
+
+td,th{
+    border: 1px solid #dddddd;
+    padding: 2px;
+    text-align: start;
+    font-size: 15px;
+
+}
+
+.btn-enviar{
+    margin-top: 15px;
+    border: 1px #714894 solid;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    color: #FFFFFF;
+    background: #714894;
+}
+.btn-enviar:hover{
+    cursor: pointer;
+    border: 1px rgb(160,207,255) solid;
+    background: rgb(160,207,255);
+}
+.encabezado{
+    background-color: #FFFFFF;
+    font-size: 22px;
+    padding: 20px;
+    position: absolute;
+
+}
